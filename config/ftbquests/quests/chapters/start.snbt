@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "start"
+	group: "68C6C5DDDAA7CCAA"
+	id: "2CDF6D157996F380"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "451598718E91F586"
+		tasks: [{
+			id: "4D7158E3468FD70C"
+			item: "integratedterminals:part_terminal_storage"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Start"
+}
