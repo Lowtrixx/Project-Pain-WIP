@@ -6,5 +6,5 @@ WorldgenEvents.add(event => {
 })
 
 
-a*b
+
 
