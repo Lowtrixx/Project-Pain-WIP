@@ -29,15 +29,7 @@ WorldgenEvents.add(event => {
       ore.worldgenLayer = 'underground_ores'  // what generation step the ores should be generated in (see below)
       ore.chance = 0							            // if != 0 and count is unset, the ore has a 1/n chance to generate per chunk
     })
-  
-    // oh yeah, and did I mention lakes exist, too?
-    // (for now at least, Vanilla is likely to remove them in the future)
-    event.addLake(lake => {
-      lake.id = 'kubejs:funny_lake' // BlockStatePredicate
-      lake.chance = 4
-      lake.fluid = 'minecraft:lava'
-      lake.barrier = 'minecraft:diamond_block'
-    })
+
   })
   
   WorldgenEvents.remove(event => {
