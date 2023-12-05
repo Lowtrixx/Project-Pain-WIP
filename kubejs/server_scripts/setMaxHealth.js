@@ -7,5 +7,6 @@ if (!e.player.stages.has('starting_items')) {
 }
 })
 PlayerEvents.respawned(e=> {
+    if(!e.player.getMaxHealth==6)
     e.player.setMaxHealth(e.player.getMaxHealth-14)
    })
